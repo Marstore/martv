@@ -1,0 +1,25 @@
+@media screen and (max-width: 700px) {
+    :root {
+        --capa-tam: 300px;
+        --lines-tam: 200px;
+    }
+
+    header .container {
+        justify-content: space-between;
+    }
+
+    header .container a {
+        display: none;
+        margin: 15px;
+    }
+     
+    main .container {
+        margin-top: 100px;
+    }
+
+    nav #res {
+        display: block;
+        margin-left: 100px;
+        font-size: 30px;
+    }
+}

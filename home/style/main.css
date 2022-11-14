@@ -3,11 +3,11 @@
 /*Formatar css*/
 
 :root {
-    --cor1: #151618;
-    --cor2: #000000;
-    --cor3: #ffffff;
+    --cor1: #000000;
+    --cor2: #ffffff;
+    --cor3: rgb(0, 0, 0);
     --cor4: #616261;
-    --cor5: #151619; 
+    --cor5: #000000; 
 
     --capa-tam: 800px;
     --lines-tam: 300px;
@@ -35,16 +35,6 @@ body {
     
 }
 
-img {
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 2px;
-    padding: 2px;
-    width: 150px;
-    box-shadow: 0 0 2px 1px rgb(0, 0, 0);
-    /*filter: grayscale(100%);*/
-    
-    
-}
 
 
 body::-webkit-scrollbar{
@@ -54,10 +44,7 @@ body::-webkit-scrollbar{
 
 /*Configurando o Header e a barra de navegaçaõ*/
 
-header .logo {
-    width: 100px;
-    margin-right: 10px;
-}
+
 
 header .container {
     
@@ -177,7 +164,7 @@ nav #res {
     text-decoration:none;
     color:inherit;    
     background-color: var(--cor1);
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
@@ -196,7 +183,7 @@ a:link {
  
  /* link que foi visitado */
  a:visited {
-     color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
  }
  
  /* mouse over */
@@ -206,5 +193,5 @@ a:link {
  
  /* link selecionado */
  a:active {
-     color: rgb(255, 255, 255);
+     color: rgb(0, 0, 0);
  }

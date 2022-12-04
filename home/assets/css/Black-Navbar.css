@@ -1,5 +1,5 @@
 .navigation-clean-search .action-button, .navigation-clean-button .action-button:active {
-  background: #56c6c6;
+  background: #000000;
   border-radius: 20px;
   font-size: inherit;
   color: #fff !important;
@@ -34,7 +34,7 @@
 }
 
 .navigation-clean-button .navbar-brand:hover {
-  color: #1485ee;
+  color: #000000;
 }
 
 .navigation-clean-button .navbar-collapse, .navigation-clean-button .navbar-form {
@@ -67,19 +67,19 @@
 .navigation-clean-button .action-button, .navigation-clean-button .action-button:active {
   background: transparent;
   border-radius: 0;
-  color: #e04c40;
+  color: #000000;
   box-shadow: none;
-  border: 1px solid #e04c40;
+  border: 1px solid #000000;
   text-shadow: none;
   padding: 10px 22px;
   transition: background-color 0.25s;
 }
 
 .navigation-clean-button .action-button:hover {
-  background: #e04c40;
+  background: #000000;
   color: #fff;
   font-weight: 400;
-  border: 1px solid #df4c40;
+  border: 1px solid #000000;
 }
 
 .navbar {
@@ -93,7 +93,7 @@
 .btn.focus, .btn:focus, .btn:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #1485ee;
+  background-color: #000000;
   border: none;
 }
 

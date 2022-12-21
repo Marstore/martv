@@ -4,13 +4,11 @@
 /*Formatar css*/
 
 :root {
-    --cor1: #ffffff;
+    --cor1: #020202;
     --cor2: #000000;
     --cor3: rgb(255, 255, 255);
     --cor4: #ffffff;
     --cor5: #ffffff; 
-  
-
     --capa-tam: 600px;
     --lines-tam: 300px;
 }
@@ -20,9 +18,13 @@
 *{
     margin: 0;
     padding: 0;
-
     font-family: 'Open Sans', sans-serif;
 }
+
+li {
+    color: #ffffff;
+}
+
 
 body {
     height: 1500px;
@@ -152,7 +154,7 @@ nav #res {
 
 a { 
     
-    color: inherit; 
+    color: #ffffff; 
     text-decoration: none;
     
 } 

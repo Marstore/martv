@@ -87,6 +87,37 @@ function abrirFilme(idfilme){
                 case 'm21':
                 linkPlay = `https://sinalpublico.com/player3/ch.php?canal=gloob`
                 break;
+                case 'm22':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s01`
+                break;
+                case 'm23':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s02`
+                break;
+                case 'm24':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s03`
+                break;
+                case 'm25':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s04`
+                break;
+                case 'm26':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s05`
+                break;
+                case 'm27':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s06`
+                break;
+                case 'm28':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s07`
+                break;
+                case 'm29':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s08`
+                break;
+                case 'm30':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s09`
+                break;
+                case 'm31':
+                linkPlay = `https://sinalpublico.com/player3/ch.php?canal=bbb23s10`
+                break;
+            
         default:
             alert('ERRO! O Arquivo não está diponível no momento')
             fecharPop()

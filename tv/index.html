@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="../home/assets/bootstrap/css/bootstrap.min.css">
 </head>
-<body>
-    
-   
+<body class="dark">
+
+        
 <header>
     <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <a class="navbar-brand"> MarTV </a>
@@ -55,6 +55,11 @@
               <li class="nav-item bg-info">
                 <a class="nav-link disabled">BETA</a>
               </li>
+
+              <!-- <li class="navbar navbar-expand-lg bg-dark">
+                <button onclick="toggleDarkMode()">Alternar modo escuro</button>
+              </li> -->
+           
             </ul>
           </div>
         </div>
@@ -259,6 +264,14 @@
           </div>
         </footer>
       </div>
+
+      
+      <script>
+        function toggleDarkMode() {
+          var element = document.body;
+          element.classList.toggle("dark");
+        }
+        </script>
    
        <!--Script Local para abrir links-->
     <script src="js/a.js"></script>

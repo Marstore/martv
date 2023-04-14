@@ -6,7 +6,7 @@
 :root {
     --cor1: #020202;
     --cor2: #000000;
-    --cor3: rgb(255, 255, 255);
+    --cor3: #fff;
     --cor4: #ffffff;
     --cor5: #ffffff; 
     --capa-tam: 600px;
@@ -47,9 +47,13 @@ body::-webkit-scrollbar{
     width: 0%;
 }
 
+.dark {
+    background-color: #222;
+    color: #fff;
+}
+
+
 /*Configurando o Header e a barra de navegaçaõ*/
-
-
 
 header .container {
     
@@ -176,25 +180,27 @@ a {
 
 
 a:link {
-    color: rgb(0, 0, 0);
+    color: #fff;
 }
 
  
  /* link que foi visitado */
  a:visited {
-     color: rgb(0, 0, 0);
+     color: #fff;
  }
  
  /* mouse over */
  a:hover {
-     color: #000000;
+     color: #fff;
  }
  
  /* link selecionado */
  a:active {
-     color: rgb(0, 0, 0);
+     color: #fff;
  }
 
+
+ 
  @media (max-width:785px) {
     footer p {
         font-size: 10px;

@@ -1,18 +1,11 @@
 @import url("./global.css");
 
-main {
-  background: url("../images/background-subscription.png") no-repeat;
-  background-size: cover;
-}
-
 /* Header */
 .header {
   position: relative;
   margin-top: 50px;
   padding: 100px 0 300px;
-  background: linear-gradient(-45deg, #222225, #29292d, #252323);
-  background-size: 400% 400%;
-  animation: gradient 10s ease infinite alternate;
+  background-size: 100% 100%;
 }
 
 .header::after {
@@ -21,7 +14,7 @@ main {
   height: 250px;
   position: absolute;
   bottom: 0;
-  background: linear-gradient(0deg, var(--primary-color), transparent);
+
 }
 
 .header__content {
@@ -308,6 +301,18 @@ main {
 }
 
 /* Animations */
+
+@keyframes color-change {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    filter: hue-rotate(180deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
 
 @keyframes gradient {
   0% {

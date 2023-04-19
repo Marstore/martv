@@ -42,14 +42,37 @@
 
 
 body {
-  background-color: var(--primary-color);
-  color: var(--text-color);
-  
+  background: url('https://cdn.discordapp.com/attachments/1023778230722891836/1098378646059745360/a0f32815-d044-4641-bcf4-1d37241ee898.png');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  animation: gradient 10s ease infinite alternate;
+  animation: color-change 3s ease-in-out infinite;
+  position: relative;
+  color: #fff;
+}
+
+
+button,img,a,p,h1,h2,h3 {
+  text-shadow: 4px 4px 5px #000000e6;
+  animation: color-change 3s ease-in-out infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: #fff;
+  }
+  50% {
+    color: #f00;
+  }
+  100% {
+    color: #0f0;
+  }
 }
 
 p {
   font-family: "Quicksand", sans-serif;
-  
+  color: #fff;  
 }
 
 section {

@@ -14,6 +14,52 @@
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <link rel="stylesheet" href="../home/assets/bootstrap/css/bootstrap.min.css">
 </head>
+
+<script>function bloquearPopup() {
+    // Verifica se o bloqueador de pop-up está ativado no navegador
+    if (window.navigator.userAgent.toLowerCase().indexOf('popup') !== -1) {
+      // Se estiver ativado, bloqueia o pop-up
+      window.open('about:blank', '_self', '');
+      window.close();
+    }
+  }
+  
+  // Chama a função para bloquear pop-ups quando a página for carregada
+  window.onload = function() {
+    bloquearPopup();
+  };
+  </script>
+
+  <script>function bloquearAnuncios() {
+    // Seleciona todos os elementos da página que contenham "anúncio" ou "publicidade" em sua classe ou ID
+    var elementosAnuncios = document.querySelectorAll('[class*="anúncio"], [class*="publicidade"], [id*="anúncio"], [id*="publicidade"]');
+    
+    // Oculta todos os elementos selecionados
+    for (var i = 0; i < elementosAnuncios.length; i++) {
+      elementosAnuncios[i].style.display = 'none';
+    }
+  }
+  
+  // Chama a função para bloquear anúncios quando a página for carregada
+  window.onload = function() {
+    bloquearAnuncios();
+  };
+  </script>
+
+  <script>function bloquearRedirecionamentos() {
+    // Desativa todos os eventos de redirecionamento na página
+    window.onbeforeunload = null;
+    window.onunload = null;
+  }
+  
+  // Chama a função para bloquear redirecionamentos quando a página for carregada
+  window.onload = function() {
+    bloquearRedirecionamentos();
+  };
+  </script>
+
+
+
 <body class="dark">
 
         
@@ -251,7 +297,7 @@
         }
     </script>       
     <div>
-        <footer class="footer">
+        <!-- <footer class="footer">
           <div class="container">
             <div class="row">
               <div class="col-lg-12">
@@ -262,7 +308,7 @@
               </div>
             </div>
           </div>
-        </footer>
+        </footer> -->
       </div>
 
       

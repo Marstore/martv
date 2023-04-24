@@ -124,7 +124,7 @@ function abrirFilme(idfilme){
             break;
     }
     
-    play.innerHTML = `<iframe width="100%" height="80%" src="${linkPlay}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    play.innerHTML = `<iframe width="100%" height="80%" src="${linkPlay}" title="MarTV player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
 
     
 }

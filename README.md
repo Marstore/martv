@@ -1,4 +1,5 @@
-![Logo](https://cdn.discordapp.com/attachments/1023778230722891836/1096688582506336316/PNG-BRANCO.png)
+<img src="[url_da_imagem](https://cdn.discordapp.com/attachments/1023778230722891836/1096688582506336316/PNG-BRANCO.png)" alt="Logo" width="100" height="100">
+
 
 
 # MarTV - Melhor Site para assistir Filmes, Séries e Canais de TV 

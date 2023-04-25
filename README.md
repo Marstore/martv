@@ -1,4 +1,7 @@
-[<img src="[url_da_imagem](https://cdn.discordapp.com/attachments/1023778230722891836/1096688582506336316/PNG-BRANCO.png)" alt="Logo" width="100" height="100">]
+
+
+<a href="#" target="_blank"><img height='30' src='[https://img.shields.io/badge/instagram-323330?style=for-the-badge&logo=instagram&logoColor=white](https://cdn.discordapp.com/attachments/1023778230722891836/1096688582506336316/PNG-BRANCO.png)' alt=''></a>
+</div>
 
 
 

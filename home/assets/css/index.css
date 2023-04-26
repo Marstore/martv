@@ -54,9 +54,9 @@
   text-align: center;
 }
 
-.header__button {
+/* .header__button {
   animation: wiggle 2.2s linear infinite;
-}
+} */
 
 /* Divider */
 
@@ -179,6 +179,7 @@
   background-position: center;
   border: 2px solid transparent;
   transition: transform 0.8s, background 0.8s, border 1s;
+  filter: grayscale(100%);
 }
 
 .contents__card:hover {
@@ -195,6 +196,7 @@
   object-fit: cover;
   object-position: center;
   transition: opacity 2s;
+  filter: grayscale(100%);
 }
 
 /* HBO Content */
@@ -300,7 +302,7 @@
   }
 }
 
-@keyframes wiggle {
+/* @keyframes wiggle {
   0%,
   10% {
     transform: rotate(0);
@@ -324,4 +326,4 @@
   100% {
     transform: rotate(0);
   }
-}
+} */

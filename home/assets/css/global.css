@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
 
 :root {
-  --primary-color: #111010;
+  --primary-color: #0a0a0a;
   --secondary-color: #ffffff;
   --tertiary-color: #000000;
   --btn-bg-color-gradient: linear-gradient(
@@ -61,9 +61,29 @@ section {
   scroll-margin-top: 80px;
 }
 
+.animation-container {
+  height: 50px; /* altura do contêiner */
+  overflow: hidden; /* esconde o overflow */
+  position: relative;
+}
+
 .text--small {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 200;
+  bottom: 0;
+  animation: up-and-down 5s ease-in-out infinite;
+}
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* Buttons */
@@ -91,11 +111,11 @@ section {
 }
 
 .button.button--gradient:hover {
-  background-color: transparent;
+  background-color: #fff;
+  color: #000;
   background-position: 100%;
-  outline: 2px solid var(--secondary-color);
+  /* outline: 1px solid #ffffff; */
   transform: scale(1.05);
-
 }
 
 /* Navbar */
@@ -212,6 +232,19 @@ section {
   }
 }
 
+
+.scroll-animation {
+ 
+  animation: scroll 5s ease-in-out infinite alternate;
+}
+
+.scroll-animation p {
+  bottom: 0;
+  width: 100%;
+  animation: scroll 5s ease-in-out infinite alternate;
+}
+
+
 /* Custom Scroll */
 
 ::-webkit-scrollbar {
@@ -226,3 +259,4 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary-color);
 }
+

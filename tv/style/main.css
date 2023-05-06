@@ -22,7 +22,6 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    filter: grayscale(100%);
 }
 
 li {
